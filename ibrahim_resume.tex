@@ -1,0 +1,112 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+
+% Hyperlinks
+\usepackage{hyperref}
+
+% Set applicant's personal data for header
+\name{Ibrahim I. Jarif}
+\address{101 Animish Apartment\linebreak Deopur, Dhule - 424002\linebreak Maharashtra, India}
+\contacts{(+91) 904-942-6428 \linebreak jarifibrahim@gmail.com}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+	
+	% Print the content
+	\begin{cvsection}{Open Source Contribution}
+		\begin{cvsubsection}[2]{Student Developer\linebreak Google Summer of Code}{The Apache Software Foundation}{April 2016 -- August 2016}
+			Smoke Tests and Continuous Integration Infrastructure for Apache Open Climate Workbench
+			\begin{itemize}
+				\item Added unit tests and improved the test coverage from 59\% to 80\%.
+				\item Configured Continuous Integration builds on Travis CI (Build + tests), coveralls.io (tests coverage) and landscape.io (code quality).
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}[2]{Committer and Project Management Committee Member}{The Apache Software Foundation}{March 2016 -- Present}
+			\begin{itemize}
+				\item Contributing features, improvements and bug fixes to Apache Open Climate Workbench.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	\begin{cvsection}{Voluntary Work}
+		\begin{cvsubsection}{Programming Volunteer}{Ashoka Globalizer}{July 2016 -- Present}
+			\begin{itemize}
+				\item Designed and implemented a dashboard template in Google Spreadsheet which will be used to keep track of team issues and status.
+				\item Added features like automatic remainder emails, welcome emails, team status indicators, automatically generated and updated google forms.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Dhule, Maharashtra, India}{North Maharashtra University}{July 2013 -- May 2017 (Expected)}
+			\begin{itemize}
+				\item Bachelor of Engineering in Computer Engineering from S.S.V.P.S's B.S.D College of Engineering, Dhule.\linebreak CGPA: 8.43/10(Current)
+				\item Higher Secondary Education -- Jai Hind Junior College, Dhule. 75.83\%. \hfill February 2013
+				\item Secondary Education -- Canossa Convent High School, Dhule. 87.83\%.\hfill March 2011
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Technical Knowledge}{}{}
+	All the Projects listed below are available at \textbf{\url{https://github.com/jarifibrahim}}   \\                                                         	\begin{cvsubsection}{Projects}{}{}
+			\begin{itemize}
+				\item \textbf{ResultBot}
+				    (\url{https://github.com/jarifibrahim/resultBot}) -- A python script to download North Maharashtra University results and send it via email to a list of recipients. \\ Technologies used -- Python and it's libraries.
+				\item \textbf{Aadhar Card Generator}
+				    (\url{https://aadhar.azurewebsites.net})
+					-- A simple web app to register and create an Aadhar Card built using PHP, MySQL, BootStrap, JQuery, JQuery-Validator, JSpdf, PHPMailer, etc.
+			    \item \textbf{Fynance}
+			        (\url{https://fynance.herokuapp.com})
+			        -- A web application to buy and sell stocks (real stocks, fake shares). The web app is built using flask (Python Framework) and uses mongoDB as database.
+			    \item \textbf{Code Now}
+			        (\url{https://github.com/jarifibrahim/code-now}) (\textit{Contributed})
+			        -- A Chrome / Chromium extension for CodeChef/SPOJ to instantly open user's favourite IDE directly from the browser.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Awards}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item \textbf{IET's Present Around The World -- Mumbai Local Network Level and North Maharashtra University Level} Runner Up -- Gave a presentation on Django (Python web framework).
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Languages and Technologies}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item Python; C; JavaScript; JQuery; BootStrap; Git; Linux
+				\item HTML; CSS; Flask; Django; Google App Scripts; Travis CI
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+\end{document}

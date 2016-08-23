@@ -23,7 +23,7 @@
 
 % Set up the fonts according to options
 \def\mainfontsize{11pt}
-\def\mainfontface{Times New Roman}
+\def\mainfontface{Calibri}
 
 \DeclareOption{calibri}{%
   \def\mainfontface{Calibri}
@@ -39,8 +39,12 @@
 
 % Set font face
 \usepackage{fontspec}
-\setmainfont[SmallCapsFeatures={Renderer=Basic},
-Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
+\setmainfont[
+    SmallCapsFeatures = {Renderer=Basic},
+    Ligatures = {TeX, NoCommon, NoDiscretionary},
+    BoldFont = calibri-bold,
+    ItalicFont = calibri-Italic,
+    ]{\mainfontface}
 
 % Remove paragraph indentation
 \usepackage[parfill]{parskip} 
