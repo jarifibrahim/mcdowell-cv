@@ -31,33 +31,52 @@
 
 % Set applicant's personal data for header
 \name{Ibrahim I. Jarif}
-\address{Whitefield, Bengaluru\linebreak Karnataka, India}
-\contacts{(+91) 904-942-6428 \linebreak jarifibrahim@gmail.com \linebreak github.com/jarifibrahim}
+\address{J.P. Nagar, Bengaluru\linebreak Karnataka, India}
+\contacts{(+91) 904-942-6428 \linebreak jarifibrahim@gmail.com \linebreak \href{https://github.com/jarifibrahim}{github.com/jarifibrahim}}
 
 \begin{document}
 
 	% Print the header
 	\makeheader
 	\begin{cvsection}{Work Experience}
-		\begin{cvsubsection}{Software Engineer}{Red Hat}{September 2017 -- Present}
+		\begin{cvsubsection}{Tech Lead and Manager (L5)}{Dgraph Labs}{ July 2020 -- Present}
 			\begin{itemize}
-				\item Building Openshift.io - a SaaS which features everything a team needs to build container-native applications.
-				\item Working as a Backend Engineer, building microservices with Golang, Docker, Openshift and Postgres.
+			    \item Lead a team of 5 engineers working on 
+			    \href{https://github.com/dgraph-io/dgraph}{Dgraph (Distributed Graph Database)}, \href{https://github.com/dgraph-io/badger}{Badger DB (embeddable key value store)} and \href{https://github.com/dgraph-io/ristretto}{Ristretto (High Performance in-memory concurrent cache)}.
+			    \item Lead the development of core features such as Multi-Tenancy, Learner Nodes, Audit Logs, etc.
+			    \item Implemented Manual Memory Management which significantly reduced the memory requirements of Dgraph.
+			    \item Contributed to major improvements to Badger's Compactions, Data Streaming Capabilities and Disk Usage.
+			    \item All of my contributions can be found on my GitHub profile \href{https://github.com/jarifibrahim}{github.com/jarifibrahim}.
+			    \item Joined as a L3 Software Engineer and was promoted twice in 18 months.
+			\end{itemize}
+		\end{cvsubsection}
+
+		\begin{cvsubsection}{Senior Software Engineer (L4)}{Dgraph Labs}{ April 2019 -- July 2020}
+			\begin{itemize}
+				\item Lead and Maintainer of Badger DB \href{https://github.com/dgraph-io/badger}{https://github.com/dgraph-io/badger} - A fast, embeddable key value store written purely in Golang. Badger DB is a performant alternative to RocksDB (written in C++).
+				\item Improved DB Open speed by 5X, iteration speed by 2X and disk usage by 12X (because of improvements to WAL garbage collection).
+				\item Worked on adding support for background compression and caching. Added support for streaming delta snapshots.
+				\item Second highest contributor to the codebase after the original author. Badger is used in production by New York Times, Grab, Protocol Labs and more.
+			\end{itemize}
+		\end{cvsubsection}
+		\begin{cvsubsection}{Software Engineer}{Red Hat}{September 2017 -- April 2019}
+			\begin{itemize}
+				\item Worked on building the next generation console for Openshift. Hands on experience with building Kubernetes native resources (Operators).
+				\item Worked as a Backend Engineer, building microservices with Golang, Docker, Openshift and Postgres for Openshift.io - a SaaS which features everything a team needs to build container-native applications.
+				\item Joined as an intern, got converted to Associate Software Engineer and promoted to Software Engineer in nineteen months.
+			\end{itemize}
+		\end{cvsubsection}
+		\begin{cvsubsection}{The Apache Software Foundation}{Google Summer of Code Intern}{April 2016 -- August 2016}
+Smoke Tests and Continuous Integration Infrastructure for Apache Open Climate Workbench
+			\begin{itemize}
+				\item Added unit tests and improved the test coverage from 59\% to 80\%.
+				\item Configured Continuous Integration builds on Travis CI (Build + tests), coveralls.io (code coverage) and landscape.io (code quality).
 			\end{itemize}
 		\end{cvsubsection}
 		\begin{cvsubsection}{Software Development Intern}{Ashoka Globalizer}{July 2016 -- October 2016}
 			\begin{itemize}
-				\item Designed and implemented a dashboard template in Google Spreadsheets to manage teams.
+				\item Designed and implemented a dashboard in Google Spreadsheets to manage teams. Wrote Google App Scripts to automate everything.
 				\item Supports features like automatic reminder emails, welcome emails, team status indicators, dynamically generated Google forms.
-			\end{itemize}
-		\end{cvsubsection}
-	\end{cvsection}
-	\begin{cvsection}{Open Source Contribution}
-		\begin{cvsubsection}[2]{Google Summer of Code Intern}{The Apache Software Foundation}{April 2016 -- August 2016}
-			Smoke Tests and Continuous Integration Infrastructure for Apache Open Climate Workbench
-			\begin{itemize}
-				\item Added unit tests and improved the test coverage from 59\% to 80\%.
-				\item Configured Continuous Integration builds on Travis CI (Build + tests), coveralls.io (tests coverage) and landscape.io (code quality).
 			\end{itemize}
 		\end{cvsubsection}
 		\begin{cvsubsection}[2]{Committer and Project Management Committee Member}{The Apache Software Foundation}{March 2016 -- Present}
@@ -74,38 +93,9 @@
 		\end{cvsubsection}
 	\end{cvsection}
 	% Print the content
-	\begin{cvsection}{Technical Knowledge}{}{}
-	All the Projects listed below are available at     \textbf{\url{https://github.com/jarifibrahim}}   \\     \begin{cvsubsection}{Projects}{}{}
-			\begin{itemize}
-			    
-			    \item \textbf{Ashoka-Dashboard} (\url{https://github.com/jarifibrahim/ashoka-dashboard}) -- A Team Management Dashboard built using Django Web Framework. Features - Automated reminder emails, Survey Forms, Team Health indicators, etc.
-			    
-				\item \textbf{Yet Another Sessionization Tool (YAST)}
-				(\url{https://github.com/jarifibrahim/YAST}) -- YAST can be used perform sessionization on web/proxy server log files. The tool generates sessionized data (which includes- Total sessions, List of URLs) that can be used for web usages analysis.
-				
-	    		\item \textbf{ResultBot}                (\url{https://github.com/jarifibrahim/resultBot}) -- A python script to download North Maharashtra University results and email it to a list of recipients. 
-			    
-			    \item \textbf{Fynance} (\url{https://fynance.herokuapp.com})
-			        -- A web application to buy and sell stocks (real stocks, fake shares). The web app is built using the flask (Python Framework) and uses MongoDB as the database.
-			\end{itemize}
-		\end{cvsubsection}
-	\end{cvsection}
-	
-	\begin{cvsection}{Awards}
-		\begin{cvsubsection}{}{}{}	
-			\begin{itemize}
-				\item \textbf{Runner Up at IET's Present Around The World -- Mumbai Local Network Level and North Maharashtra University Level} -- Gave a presentation on Django (Python web framework).
-			\end{itemize}
-		\end{cvsubsection}
-	\end{cvsection}
-	
 	\begin{cvsection}{Skills and Technologies}
 		\begin{cvsubsection}{}{}{}	
-			\begin{itemize}
-				\item Languages: Go; TypeScript; Python; C; SQL; Bash
-				\item Technologies: Containers; Docker; Openshift; Databases; CI/CD
-				\item Frameworks/Tools: Protractor; Django; Flask; Linux;
-			\end{itemize}
+			   Golang; Profiling and Benchmarking; Kubernetes; Containers/Docker; Database Internals; API Development;
 		\end{cvsubsection}
 	\end{cvsection}
 	

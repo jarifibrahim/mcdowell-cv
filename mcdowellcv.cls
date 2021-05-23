@@ -81,7 +81,7 @@
 %--------------------------------------------------------------------------------
 %                                    Constants                                  -
 %--------------------------------------------------------------------------------
-\def\afterheaderspace{3pt}
+\def\afterheaderspace{2pt}
 \def\beforesectionheaderspace{4.75pt}
 \def\sectionheadermargin{6pt}
 \def\aftersectionheaderspace{-4pt}
